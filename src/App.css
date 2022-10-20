@@ -1,0 +1,58 @@
+.App-header {
+  border: thick solid #BDC5D6;
+  border-width: 62px 68px 64px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.heading-container {
+  margin-bottom: 70px;
+}
+
+.check-container {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: #5A4AD1;
+  margin-top: -20px;
+}
+
+.check-icon {
+  margin-top: 30px;
+  margin-left: 30px;
+  color: white;
+  width: 70px;
+  height: 50px;
+}
+
+.card-container {
+
+  border: white;
+  outline: 1px solid white;
+  border: 5px solid transparent;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.card-container:hover {
+  outline: 0px solid transparent;
+  border: 5px solid #5A4AD1;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.space {
+  margin: 20px;
+}
